@@ -22,7 +22,7 @@ main {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 4rem 5%;
+    padding: 5rem 5%;
 }
 
 .navlinks a {
@@ -32,6 +32,7 @@ main {
     display: inline-block;
     transition: transform 0.3s ease;
     font-weight: 600;
+    font-size: 25px;
 }
 
 .navlinks a:hover {
@@ -39,16 +40,21 @@ main {
     color: #26a69a;
 }
 
+.signinnup{
+     display: inline-block;
+}
+
 .login-btn {
     white-space: nowrap;
-    padding: 10px 40px;
-    border-radius: 10px;
+    padding: 20px 45px;
+    border-radius: 20px;
     background-color: #cbffd0;
     font-weight: 600;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
     outline: none;
     border: none;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .login-btn:hover {
@@ -63,14 +69,15 @@ main {
 
 .signup-btn {
     white-space: nowrap;
-    padding: 10px 40px;
-    border-radius: 10px;
+    padding: 20px 45px;
+    border-radius: 20px;
     background-color: #26a69a;
     font-weight: 600;
     box-shadow: 2px 2px rgba(0, 0, 0, 0.3);
     outline: none;
     border: none;
     cursor: pointer;
+    font-size: 20px;
 }
 
 .signup-btn:hover {
@@ -219,7 +226,7 @@ main {
 }
 
 .howItWorks h1 {
-    font-size: 32px;
+    font-size: 42px;
     font-weight: 800;
     line-height: 1.2;
     margin-bottom: 2rem;
@@ -233,11 +240,11 @@ main {
 }
 
 .set1 div {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 1.5;
-    background-color: #a0f2d1;
-    padding: 0.5rem 4rem;
+    background-color: #cbffd0;
+    padding: 1.2rem 4.9rem;
     border-radius: 20px;
 }
 
@@ -245,16 +252,16 @@ main {
     display: flex;
     justify-content: space-between;
     gap: 1rem;
-    margin-top: 50px;
-    padding: 0 10%;
+    margin-top: 60px;
+    padding: 0 7%;
 }
 
 .set2 div {
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 600;
     line-height: 1.5;
     background-color: #1f938c;
-    padding: 0.5rem 4rem;
+    padding: 1.2rem 4.0rem;
     border-radius: 20px;
 }
 
@@ -268,16 +275,16 @@ main {
 
 .howItWorks-shape {
     position: absolute;
-    width: 800px;
+    width: 1000px;
     height: 300px;
-    background-color: #a0f2d1;
+    background-color: #cbffd0;
     border-radius: 250px 250px 0 0;
     bottom: 0;
-    left: 20%;
+    left: 17%;
 }
 
 .testimonials {
-    height: 100dvh;
+    height: 135dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -292,7 +299,7 @@ main {
 .test-shape1 {
     position: absolute;
     width: 400px;
-    height: 300px;
+    height: 400px;
     background-color: #26a69a;
     border-radius: 0 0 250px 0px;
     top: 0;
@@ -314,6 +321,7 @@ main {
 .testimonials h1 {
     text-align: center;
     margin-bottom: 2rem;
+    font-size: 50px;
 }
 
 .testimonial-body {
@@ -321,13 +329,13 @@ main {
     align-items: center;
 }
 
-.testimonial-card {
+.testimonial-card1 {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 600px;
     gap: 1rem;
     padding: 2rem;
     background-color: #26a69a;
@@ -337,6 +345,7 @@ main {
     margin-left: -50px;
     z-index: 1;
     text-align: center;
+    font-size: 35px;
 }
 
 .testimonial-card2 {
@@ -344,33 +353,35 @@ main {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 400px;
     gap: 1rem;
     padding: 2rem;
-    background-color: #a0f2d1;
+    background-color: #cbffd0;;
     border-radius: 20px;
     text-align: center;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
+    font-size: 22px;
 }
 
-.testimonial-card img,
+.testimonial-card1 img,
 .testimonial-card2 img {
-    width: 50px;
-    height: 50px;
+    width: 90px;
+    height: 90px;
 }
 
-.testimonial-card i,
+.testimonial-card1 i,
 .testimonial-card2 i {
     background: linear-gradient(to bottom, #fff6c3, #c9930c);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
     display: inline-block;
+    font-size: 30px;
 }
 
 .faq {
-    height: 100dvh;
+    height: 135dvh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -387,7 +398,8 @@ main {
 }
 
 .faq-body h1 {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-size: 50px;
 }
 
 .faq-content {
@@ -397,21 +409,25 @@ main {
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.3);
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    width: 500px;
+    gap: 1.5rem;
+    width: 680px;
+    height: 630px;
 }
 
 .faq-content div {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem;
+    padding: 1.6rem;
     cursor: pointer;
-    background-color: #a0f2d1;
-    border-radius: 10px;
+    background-color: #cbffd0;
+    border-radius: 20px;
+    
+    
 }
 
 .faq-content p {
-    font-size: 24px;
+    font-size: 30px;
+    font-weight: 500;
 }
 
 .faq-content img {
@@ -421,9 +437,9 @@ main {
 
 .faq-shape {
     position: absolute;
-    width: 400px;
-    height: 400px;
-    background-color: #a0f2d1;
+    width: 450px;
+    height: 500px;
+    background-color: #cbffd0;
     border-radius: 0 0 250px 0px;
     top: 0;
     left: 0;
@@ -448,57 +464,60 @@ main {
     filter: brightness(0) invert(1);
 }
 
-.handles{
+.handles {
     display: flex;
-    gap: 1rem;
-}
-.handles img {
-    width: 40px;
-    height: 40px;
+    gap: 2rem;
 }
 
-.urls{
+.handles img {
+    width: 50px;
+    height: 55px;
+}
+
+.urls {
     display: flex;
     justify-content: space-between;
     width: 100%;
     padding: 0 4rem;
 }
-.urls a{
+
+.urls a {
     color: white;
+    font-size: 25px;
 }
 
 .call-icon {
-  background-color: #fff; 
-  padding: 4px;
-  border-radius: 6px;
-  color: #1f938c; 
-  font-size: 20px;
+    background-color: #fff;
+    padding: 4px;
+    border-radius: 6px;
+    color: #1f938c;
+    font-size: 30px;
 }
 
 
 
-/* Responsive Design */
+/* Attempt on Responsive Design */
 @media (max-width: 1200px) {
     .laptop {
         width: 400px;
         right: 20px;
     }
-    
+
     .hero-shape {
         width: 350px;
         height: 400px;
     }
-    
+
     .phone {
         width: 350px;
         left: 30px;
     }
-    
+
     .feature-shape {
         width: 350px;
         height: 500px;
     }
-    
+
     .phone2 {
         width: 350px;
         left: 38%;
@@ -509,20 +528,20 @@ main {
     .hero-body {
         width: 60%;
     }
-    
+
     .laptop {
         width: 350px;
         bottom: 150px;
     }
-    
+
     .features-body {
         margin-right: 20px;
     }
-    
+
     .faq-body {
         margin-left: 10rem;
     }
-    
+
     .howItWorks-shape {
         width: 600px;
         left: 15%;
@@ -536,28 +555,28 @@ main {
         gap: 1rem;
         padding: 2rem 5%;
     }
-    
+
     .navlinks {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         margin: 1rem 0;
     }
-    
+
     .hero-body {
         width: 100%;
         padding: 2rem;
         text-align: center;
     }
-    
+
     .hero-body h1 {
         font-size: 36px;
     }
-    
+
     .hero-body p {
         font-size: 18px;
     }
-    
+
     .laptop {
         position: relative;
         width: 80%;
@@ -566,27 +585,27 @@ main {
         margin: 0 auto;
         display: block;
     }
-    
+
     .hero-shape {
         display: none;
     }
-    
+
     .features {
         flex-direction: column;
         justify-content: center;
     }
-    
+
     .features-body {
         margin-right: 0;
         padding: 2rem;
         text-align: center;
     }
-    
+
     .card-container {
         grid-template-columns: 1fr;
         justify-items: center;
     }
-    
+
     .phone {
         position: relative;
         width: 60%;
@@ -595,30 +614,32 @@ main {
         margin: 2rem auto;
         display: block;
     }
-    
+
     .feature-shape {
         display: none;
     }
-    
+
     .howItWorks {
         padding: 2rem;
     }
-    
+
     .instructions-container {
         flex-direction: column;
     }
-    
-    .set1, .set2 {
+
+    .set1,
+    .set2 {
         flex-direction: column;
         gap: 1rem;
         padding: 0;
     }
-    
-    .set1 div, .set2 div {
+
+    .set1 div,
+    .set2 div {
         padding: 0.5rem 2rem;
         text-align: center;
     }
-    
+
     .phone2 {
         position: relative;
         width: 60%;
@@ -627,32 +648,33 @@ main {
         margin: 2rem auto;
         display: block;
     }
-    
+
     .howItWorks-shape {
         display: none;
     }
-    
+
     .testimonials {
         padding: 2rem;
         height: auto;
     }
-    
+
     .testimonial-body {
         flex-direction: column;
         gap: 2rem;
     }
-    
-    .testimonial-card, .testimonial-card2 {
+
+    .testimonial-card,
+    .testimonial-card2 {
         margin: 0;
         width: 100%;
         max-width: 400px;
     }
-    
+
     .faq {
         padding: 2rem;
         height: auto;
     }
-    
+
     .faq-body {
         margin-left: 0;
         width: 100%;
@@ -660,24 +682,25 @@ main {
         flex-direction: column;
         align-items: center;
     }
-    
+
     .faq-content {
         width: 100%;
         max-width: 500px;
     }
-    
+
     .faq-shape {
         display: none;
     }
-    
-    .test-shape1, .test-shape2 {
+
+    .test-shape1,
+    .test-shape2 {
         display: none;
     }
-    
+
     .footer {
         padding: 2rem 1rem;
     }
-    
+
     .urls {
         flex-direction: column;
         gap: 1rem;
@@ -689,25 +712,29 @@ main {
     .hero-body h1 {
         font-size: 28px;
     }
-    
+
     .hero-body p {
         font-size: 16px;
     }
-    
-    .features-body h1, .howItWorks h1, .testimonials h1, .faq-body h1 {
+
+    .features-body h1,
+    .howItWorks h1,
+    .testimonials h1,
+    .faq-body h1 {
         font-size: 32px;
     }
-    
+
     .action img {
         width: 250px;
     }
-    
+
     .card {
         width: 100%;
         max-width: 250px;
     }
-    
-    .login-btn, .signup-btn {
+
+    .login-btn,
+    .signup-btn {
         padding: 10px 20px;
     }
 }
